@@ -19,7 +19,7 @@ function displayGuests(data) {
 
 
     console.log(data);
-    var guestList = "ttt";
+    var guestList = "";
     $.each(data, function(index, value) {
         guestList = guestList  + "<br/> "+ value.first +" "+ value.last;
     });
